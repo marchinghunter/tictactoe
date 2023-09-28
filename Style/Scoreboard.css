@@ -1,0 +1,21 @@
+.scoreboard {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:5px;
+    margin:15px;
+  }
+  .scores{
+    margin:10px;
+    font-size:30px;
+  }
+  .xscore{
+    color:blue;
+  }
+  .oscore{
+    color:red;
+  }
+  .xplaying{
+    border-bottom: 3px solid blue;
+  }
+  .oplaying{
+    border-bottom: 3px solid red;
+  }

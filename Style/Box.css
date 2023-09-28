@@ -1,0 +1,32 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  width: 400px;
+  justify-items: center;
+}
+.smallbox {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  text-align: center;
+  width: 30px;
+  background-color: white;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  font-family: "Dela Gothic One", cursive;
+  font-size: 100px;
+  border-radius: 10px;
+  height: 145px;
+}
+.smallbox:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box-x {
+  color: blue;
+}
+.box-o {
+  color: red;
+}
+
